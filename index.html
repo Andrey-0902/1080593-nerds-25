@@ -85,10 +85,11 @@
           </li>
         </ul>
       </section>
-      <section class="xxx2"> <!-- Это информация(описание студии) можно назвать info, description-->
-        <p>Мы - маленька, но гордая дизайн-студия из Краснодара</p> <!-- МаленькаЯ(опечатка), текст лучше напрямую копировать из макета--> <!-- В лекциях это делают тегом b-->
+      <section class="description"> <!-- Это информация(описание студии) можно назвать info, description-->!
+        <h2>О нас</h2>
+        <b>Мы - маленькая, но гордая дизайн-студия из Краснодара</b> <!-- МаленькаЯ(опечатка), текст лучше напрямую копировать из макета-->! <!-- В лекциях это делают тегом b-->!
         <p>Исповедуем принципы минимализма и чистоты. Ставим математический рассчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-        <h2>Выполняем заказы на разработку:</h2> <!-- Больше похоже на обычный p. А h2 с примерным текстом "Информация о стулии Нердс" надо добавить и скрыть-->
+        <p>Выполняем заказы на разработку:</p> <!-- Больше похоже на обычный p. А h2 с примерным текстом "Информация о стулии Нердс" надо добавить и скрыть-->!
         <ul>
           <li>
             Веб-сайтов любой сложности
@@ -103,8 +104,20 @@
       </section>
       <section class="features">
         <img src="nerds-illustration.png" width="360" height="208" alt="логотип Нёрдс"> <!-- Хорошо было бы задавать картинкам width, height атрибуты-->!
-        <h2>С 2004 года любим точность во всем:</h2> <!-- больше похоже на p-->
-        <ul> <!-- Это надо сделать таблицей, 
+        <p>С 2004 года любим точность во всем:</p> <!-- больше похоже на p-->!
+        <table>
+          <tr>
+            <th>146%</th>
+            <th>100%</th>
+            <th>50%</th>
+          </tr>
+          <tr>
+            <td>Уровень самоотдачи</td>
+            <td>Соблюдение сроков</td>
+            <td>Минимальная предоплата</td>
+          </tr>
+        </table>
+          <!-- Это надо сделать таблицей, !!!
         <table>
           <tr>
             <td>
@@ -117,29 +130,39 @@
             </th>
           </tr>
         </table>-->
-          <li>
-            
-          </li>
-          <li>
-            100% Соблюдение сроков
-          </li>
-          <li>
-            50% Минимальная предоплата
-          </li>
-        </ul>  <!--Отступы-->!
       </section>
-      <section class="xxx3"> <!-- нет h2 !!!, назвать можно logos, links, partners-->
-        <img src="logo-1.png" width="199" height="68" alt="html Academi"> <!--Это ссылка--> <!--К тому же это список-->
-        <img src="logo-2.png" width="209" height="87" alt="Barbershop Borodinski"> <!-- width, height-->
-        <img src="logo-3.png" width="185" height="52" alt="Pink">
-        <img src="logo-4.png" width="173" height="84" alt="Mishka">
+      <section class="partners"> <!-- нет h2 !!!, назвать можно logos, links, partners-->!
+        <h2>Партнеры</h2>
+        <ul>
+          <li>
+            <a><img src="logo-1.png" width="199" height="68" alt="html Academi"></a> <!--Это ссылка--> <!--К тому же это список-->!
+          </li>
+          <li>
+            <a><img src="logo-2.png" width="209" height="87" alt="Barbershop Borodinski"></a> <!-- width, height-->!
+          </li>
+          <li>
+            <a><img src="logo-3.png" width="185" height="52" alt="Pink"></a>
+          </li>
+          <li>
+            <a><img src="logo-4.png" width="173" height="84" alt="Mishka"></a>
+          </li>
+        </ul>
       </section> <!--Отступы-->!
     </main>
     <footer class="site-footer">
-      <div class="social footer"> <!-- Это список ссылок-->
-        <a class="social button" href="#">Вконтакте</a>
-        <a class="social button" href="#">Фейсбук</a>
-        <a class="social button" href="#">Инстаграмм</a>
+      <div class="social footer">
+        <!--Это список ссылок-->!
+        <ul>
+          <li>
+            <a class="social button" href="#">Вконтакте</a>
+          </li>
+          <li>
+            <a class="social button" href="#">Фейсбук</a>
+          </li>
+          <li>
+            <a class="social button" href="#">Инстаграмм</a>
+          </li>
+        </ul>
       </div>
       <b>Давайте дружить, это выгодно!</b>
       <p>скидка 10% для друзей из социальных сетей.</p>
