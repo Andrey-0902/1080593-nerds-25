@@ -2,102 +2,132 @@
 <html lang=ru>
   <head>
     <meta charset="UTF-8">
-    <title>Магазин</title> <!-- Магазин студии Нердс-->
+    <title>Магазин студии Нердс</title> <!-- Магазин студии Нердс-->!
   </head>
   <body>
-    <header class="site-header"> <!-- Замечания по header в index-->
+    <header class="site-header"> <!-- Замечания по header в index-->!
       <nav class="header-nav">
         <ul class="site-navigation">
           <li>
             <a href="index.html"><img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип nerds"></a>
           </li>
           <li>
-            <a href="">Студия</a>
+            <a href="#">Студия</a>
           </li>
           <li>
-            <a href="">Клиенты</a>
+            <a href="#">Клиенты</a>
           </li>
           <li>
-            <a class="site-navigation-current" href="">Магазины</a>
+            <a class="site-navigation-current" href="#">Магазины</a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a href="#">Контакты</a>
           </li>
         </ul>
         <ul class="user navigation">
           <li>
-            <a href="">Корзина</a>
+            <a href="#">Корзина</a>
           </li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1>Магазин готовых шаблонов</h1><!--Пробелы после h1 ни к чему-->
-    <section>
-        <h2>Фильтр товаров</h2>
-        <!--Здесь будет форма-->
-    </section>
-    <section>
-        <h2>Сортировка товаров</h2>
-        <!--Здесь будет еще форма--> <!-- Тут будет список ссылок, не форма :)-->
-    </section>
-    <!-- Хорошо было бы обернуть в секцию то, что ниже-->
-    <h2>Список товаров</h2>
-    <ul>
-      <li>
-        <p> <!-- Параграф лишний-->
-          <a href="#"><img src="img/img-catalog/img-sedona.jpg" width="360" height="576" alt="Седона"></a> <!-- Это не ссылка. Это картинка,у нее будет ховер всего лишь-->
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="#"><img src="img/img-catalog/img-pink.jpg" width="360" height="576" alt="Пинк"></a>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="#"><img src="img/img-catalog/img-barbershop.jpg" width="360" height="576" alt="Барбершоп Бородинский"></a>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="#"><img src="img/img-catalog/img-mishka.jpg" width="360" height="576" alt="Мишка"></a>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="#"><img src="img/img-catalog/img-aplus.jpg" width="360" height="576" alt="А плюс"></a>
-        </p>
-      </li>
-      <li>
-        <p>
-          <a href="#"><img src="img/img-catalog/img-kvast.jpg" width="360" height="576" alt="Кваст"></a>
-        </p>
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <a href="#">1</a>
-      </li>
-      <li>
-        <a href="#">2</a>
-      </li>
-      <li>
-        <a href="#">3</a>
-      </li>
-      <li>
-        <a href="#">Следующая</a>
-      </li>
-    </ul>
+      <h1>Магазин готовых шаблонов</h1><!--Пробелы после h1 ни к чему-->!
+      <section class="filtre">
+          <h2>Фильтр товаров</h2>
+          <!--Здесь будет форма-->
+      </section>
+      <section class="sorting">
+          <h2>Сортировка товаров</h2>
+          <!-- Тут будет список ссылок, не форма :)-->!
+          <p>Сетка</p>
+          <ul class="circle">
+            <li>
+              <a href="#">Адаптивная</a>
+            </li>
+            <li>
+              <a href="#">Фиксированная</a>
+            </li>
+            <li>
+              <a href="#">Резиновая</a>
+            </li>
+          </ul>
+          <p>Особенности</p>
+          <ul class="square">
+            <li>
+              <a href="#">Слайдер</a>
+            </li>
+            <li>
+              <a href="#">Блок преимуществ</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Галерея</a>
+            </li>
+            <li>
+              <a href="#">Корзина</a>
+            </li>
+          </ul>
+      </section>
+      <!-- Хорошо было бы обернуть в секцию то, что ниже-->!
+      <section class="catalog">
+        <h2>Список товаров</h2>
+        <ul>
+          <li> <!-- Параграф лишний-->!
+            <img src="img/img-catalog/img-sedona.jpg" width="360" height="576" alt="Седона"> <!-- Это не ссылка. Это картинка,у нее будет ховер всего лишь-->!
+          </li>
+          <li>
+            <img src="img/img-catalog/img-pink.jpg" width="360" height="576" alt="Пинк">
+          </li>
+          <li>
+            <img src="img/img-catalog/img-barbershop.jpg" width="360" height="576" alt="Барбершоп Бородинский">
+          </li>
+          <li>
+            <img src="img/img-catalog/img-mishka.jpg" width="360" height="576" alt="Мишка">
+          </li>
+          <li>
+            <img src="img/img-catalog/img-aplus.jpg" width="360" height="576" alt="А плюс">
+          </li>
+          <li>
+            <img src="img/img-catalog/img-kvast.jpg" width="360" height="576" alt="Кваст">
+          </li>
+        </ul>
+      </section>
+      <section class="pagination-list">
+        <ul>
+          <li>
+            <a href="#">1</a>
+          </li>
+          <li>
+            <a href="#">2</a>
+          </li>
+          <li>
+            <a href="#">3</a>
+          </li>
+          <li>
+            <a href="#">Следующая</a>
+          </li>
+        </ul>
+      </section>
     </main>
-    <footer class="site-footer"> <!-- Замечания в index-->
+    <footer class="site-footer"> <!-- Замечания в index-->!
       <div class="social-footer">
-        <a class="social-button" href="#">Вконтакте</a>
-        <a class="social-button" href="#">Фейсбук</a>
-        <a class="social-button" href="#">Инстаграмм</a>
+        <ul>
+          <li>
+          <a class="social-button" href="#">Вконтакте</a>
+          </li>
+          <li>
+          <a class="social-button" href="#">Фейсбук</a>
+          </li>
+          <li>
+          <a class="social-button" href="#">Инстаграмм</a>
+          </li>
+        </ul>
       </div>
       <b>Давайте дружить, это выгодно!</b>
       <p>скидка 10% для друзей из социальных сетей.</p>
     </footer>
   </body>
-</html><!-- Опять пробелы-->
+</html><!-- Опять пробелы-->!
