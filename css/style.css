@@ -271,7 +271,8 @@ a.current-sorting {
   opacity: 1.0;
 }
 
-.sorting a:hover {
+.sorting a:hover,
+.sorting a:focus {
   opacity: 0.6;
 }
 
@@ -281,6 +282,10 @@ a.current-sorting {
 
 .catalog ul {
   list-style: none;
+}
+
+.catalog img {
+  border: 1px solid rgba(0, 1, 1, 0.1);
 }
 
 ul.pagination-list {
@@ -310,6 +315,3 @@ a.pagination-current {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.catalog img {
-  border: 1px solid rgba(0, 1, 1, 0.1);
-}
