@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title>Магазин студии Нердс</title>
-    <link src="css/style.css" rel="stylesheet">
-    <link src="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="site-header"> 
@@ -26,7 +27,7 @@
             <a href="#">Контакты</a>
           </li>
         </ul>
-        <ul class="user navigation">
+        <ul class="user-navigation">
           <li>
             <a href="#">Корзина</a>
           </li>
@@ -34,7 +35,7 @@
       </nav>
     </header>
     <main>
-      <h1>Магазин готовых шаблонов</h1>
+      <h1 class="main-title">Магазин готовых шаблонов</h1>
       <section class="filter">
           <h2 class="visually-hidden">Фильтр товаров</h2>
           <form action="https://echo.htmlacademy.ru" method="post">
@@ -85,12 +86,13 @@
             </fieldset>
             <button type="submit">Показать</button>
           </form>
+        </section>
       <section class="sorting">
-        <h2>Сортировка товаров</h2>
+        <h2 class="visually-hidden">Сортировка товаров</h2>
         <p>Сортировать:</p>
         <ul>
           <li>
-            <a href="#">По цене</a>
+            <a class="current-sorting" href="#">По цене</a>
           </li>
           <li>
             <a href="#">По типу</a>
@@ -133,7 +135,7 @@
       </section>
       <ul class="pagination-list">
         <li>
-          <a href="#">1</a>
+          <a class="pagination-current" href="#">1</a>
         </li>
         <li>
           <a href="#">2</a>
