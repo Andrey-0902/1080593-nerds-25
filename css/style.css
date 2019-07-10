@@ -271,6 +271,14 @@ a.current-sorting {
   opacity: 1.0;
 }
 
+.sorting a:hover {
+  opacity: 0.6;
+}
+
+.sorting a:active {
+  opacity: 1.0;
+}
+
 .catalog ul {
   list-style: none;
 }
