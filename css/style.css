@@ -104,7 +104,15 @@ a {
 }
 
 .partners a {
-  opacity: 0,2;
+  opacity: 0.2;
+}
+
+.partners a:hover {
+  opacity: 1.0;
+}
+
+.partners a:active {
+  opacity: 0.1;
 }
 
 .site-footer b {
