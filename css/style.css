@@ -94,9 +94,9 @@ a.button:active {
 }
 
 .site-navigation a:active,
-.site-navigation a:active {
-  color: #000000;
-  opacity: 0.3;
+.user-navigation a:active {
+  padding-bottom: 13px;
+  border-bottom: 1px solid #fb565a;
 }
 
 
