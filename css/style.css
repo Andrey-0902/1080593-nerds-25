@@ -178,7 +178,8 @@ a.button:active {
   opacity: 0.2;
 }
 
-.partners a:hover {
+.partners a:hover,
+.partners a:focus {
   opacity: 1.0;
 }
 
