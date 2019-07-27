@@ -1,5 +1,10 @@
-html { box-sizing: border-box; }
-*, *::before, *::after { box-sizing: inherit; }
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 body {
   margin: 0;
@@ -12,6 +17,10 @@ body {
   color: #000000;
 
   background-color: #ffffff;
+}
+
+img {
+  max-width: 100%
 }
 
 a {
