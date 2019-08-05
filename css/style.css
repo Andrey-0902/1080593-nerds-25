@@ -343,3 +343,41 @@ a.pagination-current {
   color: rgba(0, 0, 0, 0.3);
 }
 
+/* Сеточные стили */
+
+body > * {
+  background: rgba(0, 255, 0, 0.3)
+}
+
+body > * > * {
+    background: rgba(255, 0, 0, 0.3)
+  }
+
+body > * > * > * {
+  background: rgba(0, 0, 255, 0.3)
+  }
+
+html,
+body {
+  min-width: 1440;
+  min-height: 1925;
+}
+
+.site-header {
+  margin-bottom: 18px;
+  min-height: 115px;
+}
+
+.site-navigation {
+  margin: 0;
+  padding: 0;
+}
+
+.user-navigation {
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav {
+  display: flex;
+}
