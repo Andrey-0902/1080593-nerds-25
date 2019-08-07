@@ -457,6 +457,29 @@ body {
 }
 
 .navigation {
+  min-height: 416px;
+
   background-image: url('../img/map-marker.png');
   background-size: cover;
+}
+
+.site-footer {
+  display: flex;
+
+  margin-top: 69px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+
+  width: 260px;
+  margin: 0;
+  padding: 0;
+  margin-right: 140px;
+}
+
+.call {
+  width: 560px;
+  margin-top: 9px;
 }
