@@ -483,3 +483,9 @@ body {
   width: 560px;
   margin-top: 9px;
 }
+
+/* Сетка каталога */
+
+.main-title {
+  text-align: center;
+}
