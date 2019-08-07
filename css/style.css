@@ -357,27 +357,106 @@ body > * > * > * {
   background: rgba(0, 0, 255, 0.3)
   }
 
-html,
+/* html,
 body {
   min-width: 1440;
   min-height: 1925;
-}
+} */
 
 .site-header {
   margin-bottom: 18px;
   min-height: 115px;
 }
 
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .site-navigation {
+  width: 540px;
   margin: 0;
   padding: 0;
 }
 
 .user-navigation {
+  width: 200px;
+  margin-left: auto;
   margin: 0;
   padding: 0;
 }
 
-.header-nav {
+.main-header-logo {
+  width: 160px;
+}
+
+.services-list {
+  padding: 0;
+  margin: 0;
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.services-item {
+  width: 300px;
+}
+
+.description-features-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 76px;
+}
+
+.description {
+  padding-top: 80px;
+  width: 660px;
+}
+
+.features {
+  padding-top: 40px;
+  width: 360px;
+}
+
+.partners-list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.html-academy-item {
+  padding-top: 62px;
+  padding-bottom: 50px;
+  margin-left: 31px;
+  margin-right: 96px;
+}
+
+.barbershop-item {
+  padding-top: 46px;
+  padding-bottom: 44px;
+  margin-right: 103px;
+}
+
+.pink-item {
+  padding-top: 65px;
+  padding-bottom: 63px;
+  margin-right: 121px;
+}
+
+.mishka-item {
+  padding-top: 52px;
+  padding-bottom: 44px;
+  margin-right: auto;
+}
+
+.navigation {
+  background-image: url('../img/map-marker.png');
+  background-size: cover;
 }
