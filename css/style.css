@@ -518,8 +518,8 @@ body {
 }
 
 .filter {
-  width: 261;
-  height: 754;
+  width: 260;
+  min-height: 754;
   padding-top: 63px;
 }
 
@@ -537,4 +537,23 @@ body {
 .catalog li {
   width: 360px;
   height: 615px;
+}
+
+.catalog ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.catalog li {
+  margin-right: 40px;
+}
+
+.catalog li:nth-child(2n) {
+  margin-right: 0;
+}
+
+
+.sorting ul {
+  width: 760px;
+  min-height: 14px;
 }
