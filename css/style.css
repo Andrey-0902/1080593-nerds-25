@@ -84,8 +84,6 @@ a {
   font-size: 16px;
   line-height: 30px;
   color: #000000;
-
-  background-color: #ffffff;
 }
 
 .site-navigation,
@@ -114,16 +112,16 @@ a {
 
 .site-navigation-current {
   padding-bottom: 13px;
-
   border-bottom: 1px solid #fb565a;
 }
-
 
 .slider-list {
   list-style: none;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+
+  margin: 0;
 }
 
 .slider-list h3 {
@@ -364,8 +362,11 @@ body {
 } */
 
 .site-header {
-  margin-bottom: 18px;
   min-height: 115px;
+  padding: 0;
+  margin: 0;
+  
+  background-color: #eeeeee;
 }
 
 .header-nav {
@@ -394,6 +395,22 @@ body {
 
 .main-header-logo {
   width: 160px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.first-h3 {
+  margin-top: 0;
+  padding-top: 18px;
 }
 
 .services-list {
@@ -488,4 +505,36 @@ body {
 
 .main-title {
   text-align: center;
+  margin: 0;
+  padding-top: 82px;
+  padding-bottom: 116px;
+
+  background-color: #eeeeee;
+}
+
+.filter-catalog {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  width: 261;
+  height: 754;
+  padding-top: 63px;
+}
+
+.sorting p {
+  padding-top: 60px;
+  width: 133xp;
+  height: 14px;
+}
+
+.catalog {
+  width: 760px;
+  min-height: 1915px;
+}
+
+.catalog li {
+  width: 360px;
+  height: 615px;
 }
