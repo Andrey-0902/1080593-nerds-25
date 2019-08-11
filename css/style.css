@@ -342,18 +342,18 @@ a.pagination-current {
 }
 
 /* Сеточные стили */
-
-body > * {
-  background: rgba(0, 255, 0, 0.3)
-}
-
-body > * > * {
-    background: rgba(255, 0, 0, 0.3)
+/* 
+  body > * {
+    background: rgba(0, 255, 0, 0.3)
   }
 
-body > * > * > * {
-  background: rgba(0, 0, 255, 0.3)
-  }
+  body > * > * {
+      background: rgba(255, 0, 0, 0.3)
+    }
+
+  body > * > * > * {
+    background: rgba(0, 0, 255, 0.3)
+    } */
 
 /* html,
 body {
@@ -529,6 +529,11 @@ body {
   height: 14px;
 }
 
+.sorting ul {
+  width: 760px;
+  min-height: 14px;
+}
+
 .catalog {
   width: 760px;
   min-height: 1915px;
@@ -552,8 +557,3 @@ body {
   margin-right: 0;
 }
 
-
-.sorting ul {
-  width: 760px;
-  min-height: 14px;
-}
