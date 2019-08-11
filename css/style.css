@@ -518,15 +518,15 @@ body {
 }
 
 .filter {
-  width: 260;
-  min-height: 754;
+  width: 260px;
+  min-height: 754px;
   padding-top: 63px;
 }
 
-.sorting p {
+.sorting {
   padding-top: 60px;
-  width: 133xp;
-  height: 14px;
+  width: 760xp;
+  min-height: 14px;
 }
 
 .sorting ul {
