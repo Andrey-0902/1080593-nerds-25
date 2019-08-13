@@ -278,10 +278,16 @@ a {
   font-weight: 700;
   line-height: 18px;
   text-transform: uppercase;
+
+  padding: 0;
+  margin: 0;
 }
 
 .sorting ul {
   list-style: none;
+
+  padding: 0;
+  margin: 0;
 }
 
 .sorting a {
@@ -534,19 +540,22 @@ body {
   min-height: 14px;
 }
 
-.catalog {
+.sorting-catalog {
   width: 760px;
-  min-height: 1915px;
-}
-
-.catalog li {
-  width: 360px;
-  height: 615px;
+  min-height: 1990px;
 }
 
 .catalog ul {
   display: flex;
   flex-wrap: wrap;
+
+  padding: 0;
+  margin: 0;
+}
+
+.catalog li {
+  width: 360px;
+  height: 615px;
 }
 
 .catalog li {
