@@ -122,6 +122,7 @@ a {
   line-height: 24px;
 
   margin: 0;
+  padding: 0;
 }
 
 .slider-list h3 {
@@ -387,21 +388,52 @@ body {
 }
 
 .site-navigation {
-  width: 540px;
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 850px;
   margin: 0;
   padding: 0;
-}
+  margin-top: 83px;
+ }
 
 .user-navigation {
-  width: 200px;
-  margin-left: auto;
+  display: flex;
+  flex-wrap: nowrap;
+
+  width: 130px;
   margin: 0;
   padding: 0;
+  margin-left: auto;
+  margin-top: 83px;
+  text-align: right; 
 }
 
 .main-header-logo {
   width: 160px;
 }
+
+.logo-navigation {
+  min-width: 160px;
+  min-height: 65px;
+
+  margin-top: -34px;
+  margin-right: 202px;
+}
+
+.studio {
+  margin-right: 47px;
+}
+
+.clients {
+  margin-right: 48px;
+}
+
+.shops {
+  margin-right: 45px;
+}
+
+
 
 .visually-hidden {
   position: absolute;
